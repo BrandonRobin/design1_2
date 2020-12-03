@@ -1,34 +1,34 @@
 h1 {
-	text-align: right;
+	text-align: center;
 	font-size: 40px;
 	font-family: Garamond;
-	color: white;
+	color: red;
+	border: 3px solid purple;
+	padding: 30px;
 	line-height:;
 	text-transform:;
 }
 p {
-	text-align: left;
 	font-size: 16px;
 	font-family: Garamond;
 	Color: #1f032e;
-	border: 2px solid white;
-	padding: 5px;
+	border: 2px solid purple;
 	margin: 50px;
 }
 body {
-	margin: ;
-	background: #499EB6;
+	background: powderblue;
 }
 ul {
 	font-size: 16px;
 	font-family: Garamond;
 	text-align: center;
-	color: white;
+	color: purple;
+	list-style-type: circle;
 }
 div {
 	font-family: Garamond;
-	text-align: left;
-	color: white;
+	text-align: center-left;
+	color: purple;
 }
 img {
 	max-width: 400px;
@@ -36,6 +36,36 @@ img {
 	margin-right: auto;
 	margin-left: auto;
 	border: 2px black;
-	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a:link {
+	color: green;
+	background-color: white;
+	padding: 14px 25px;
+	border: 2px double green;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	font-family: monospace
+}
+a:visited {
+	color: green;
+	background-color: white;
+	padding: 14px 25px;
+	border: 2px double green;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	font-family: monospace
+}
+a:hover {
+	color: white;
+	background-color: green;
+	text-decoration: underline;
+	font-family: monospace
+}
+a:active {
+	color: white;
+	background-color: green;
+	text-decoration: underline;
+	font-family: monospace
 }
